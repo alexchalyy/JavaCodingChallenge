@@ -11,7 +11,7 @@ class JavaCodingChallenge {
 
         // This method opens the text files, counts the words in it, and displays it on
         // console.
-        
+
         try {
             File f1 = new File("passage.txt"); // Creation of File Descriptor for input file
             String[] words = null; // Intialize the word Array
@@ -51,6 +51,6 @@ class JavaCodingChallenge {
      */
 
     {
-        WordCount();
+        WordCount(); // Give a total word count.
     }
 }

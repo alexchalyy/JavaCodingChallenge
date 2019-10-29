@@ -7,6 +7,7 @@ public class WordFrequency {
 
     private static String[] w = null;
     private static int[] r = null;
+    private static String MostUsed = null;
 
     public void CalculateFrequency() {
 
@@ -20,6 +21,7 @@ public class WordFrequency {
             BufferedReader br = new BufferedReader(fr);
             String text = "";
             String sz = null;
+            
             while((sz=br.readLine())!=null){
                 text = text.concat(sz);
             }
@@ -63,8 +65,12 @@ public class WordFrequency {
 
     public static void display(int n){
         for(int k=0; k<n; k++){
+            if (k == 0) {
+                MostUsed = w[k];
+            }
             System.out.println("Label :: "+w[k]+"\tCount :: "+r[k]);
         }
+        //System.out.println("Most used word is " + MostUsed);
     }
     
 //--------------------------------------------------------------------------------

@@ -28,6 +28,6 @@ class JavaCodingChallenge {
         WordFrequency wf = new WordFrequency(); 
 
         wc.CountWords(); // Give a total word count.
-        wf.CalculateFrequency();
+        wf.CalculateFrequency(); // Gives 10 most frequently used words from the given text file.
     }
 }

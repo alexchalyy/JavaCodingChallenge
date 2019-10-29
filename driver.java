@@ -24,8 +24,10 @@ class JavaCodingChallenge {
      */
 
     {
-        WordCount wc = new WordCount(); 
+        WordCount wc = new WordCount();
+        WordFrequency wf = new WordFrequency(); 
 
         wc.CountWords(); // Give a total word count.
+        wf.CalculateFrequency();
     }
 }

@@ -1,11 +1,23 @@
-/* This is a simple Java program. 
-   FileName : "HelloWorld.java". */
-   class HelloWorld 
-   { 
-       // Your program begins with a call to main(). 
-       // Prints "Hello, World" to the terminal window. 
-       public static void main(String args[]) 
-       { 
-           System.out.println("Hello, World"); 
-       }
-    }   
+class JavaCodingChallenge {
+    // Your program begins with a call to main().
+    // Prints "Hello, World" to the terminal window.
+    public static void main(String args[])
+    /*
+     * 
+     * This Java program reads a text file and does the
+     * following: 
+     * 
+     * 1. Give a total word count.
+     * 
+     * 2. Identify the top 10 words used and display them in sorted order.
+     * 
+     * 3. Pull the last sentence on the file that contains the most used word.
+     * 
+     * Your output can be written directly to the console window or a log.
+     * 
+     * Written by Alex Chalyy on 10/29/2019.
+     */
+    {
+        System.out.println("Hello World");
+    }
+}

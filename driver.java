@@ -24,7 +24,7 @@ class JavaCodingChallenge {
         System.out.println("Number of words in the file:" +wc);    //Print the word count
       }
 
-    public static void main(String args[])
+    public static void main(String args[]) throws IOException
 
     /*
      * 

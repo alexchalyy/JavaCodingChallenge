@@ -1,6 +1,12 @@
 class JavaCodingChallenge {
-    // Your program begins with a call to main().
-    // Prints "Hello, World" to the terminal window.
+
+    static void WordCount() {
+
+    // This method opens the text files, counts the words in it, and displays it on console.
+
+        System.out.println("Word Count!");
+      }
+
     public static void main(String args[])
     /*
      * 
@@ -18,6 +24,6 @@ class JavaCodingChallenge {
      * Written by Alex Chalyy on 10/29/2019.
      */
     {
-        System.out.println("Hello World");
+       WordCount(); 
     }
 }

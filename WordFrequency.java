@@ -75,6 +75,7 @@ public class WordFrequency {
             //System.out.println(a[c]);
             //System.out.println("Most used = " + MostUsed);
             if (a[c].contains(MostUsed))    {
+                System.out.println("This is the last sentence in the text with the most frequently used word:");
                 System.out.println(a[c]);
                 break;
             }
